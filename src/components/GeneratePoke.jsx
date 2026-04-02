@@ -59,7 +59,6 @@ function GeneratePoke() {
                 ))}
             </div>
 
-            {/* ← opsional: tampilkan pesan kalau tidak ada hasil */}
             {pokeFilter.length === 0 && (
                 <p className="text-center text-gray-400 mt-8">Pokemon "{query}" tidak ditemukan.</p>
             )}
