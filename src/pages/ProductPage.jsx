@@ -1,6 +1,6 @@
 import { useState } from "react";
-import ProductForm from "./ProductForm";
-import ProductTable from "./ProductTable"
+import ProductForm from "../components/ProductForm";
+import ProductTable from "../components/ProductTable"
 
 function ProductPage(){
     const[product, setProduct] = useState([]);
