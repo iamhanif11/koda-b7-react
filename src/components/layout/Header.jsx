@@ -3,7 +3,8 @@ import { Link, useLocation } from "react-router";
     const navigation = [
         {name: 'Homepage', path: '/'},
         {name: 'Minitask-1&2', path:'/App'},
-        {name: 'Minitask-3', path:'./GeneratePoke'}
+        {name: 'Minitask-3', path:'/GeneratePoke'},
+        {name: 'RickMorty', path: '/characters'}
     ];
 
     const Header = () => {
