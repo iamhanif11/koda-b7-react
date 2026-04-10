@@ -7,6 +7,8 @@ import Layout from "./components/layout/Layout";
 import ReviewPage from "./pages/ReviewPage";
 import ListChara from "./components/ListChara";
 import DetailChara from "./components/DetailChara";
+import FetchTech from "./components/Fetchtest";
+import FetchTest from "./components/Fetchtest";
 
 function AppRouter() {
   return (
@@ -37,6 +39,7 @@ function AppRouter() {
       ></Route>
       <Route path="/characters" element={<ListChara />}></Route>
       <Route path="/characters/:id/:slug" element={<DetailChara />}></Route>
+      <Route path="/fetchtest" element={<FetchTest/>}></Route>
     </Routes>
   );
 }

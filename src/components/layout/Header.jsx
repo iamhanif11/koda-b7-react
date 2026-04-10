@@ -4,7 +4,8 @@ import { Link, useLocation } from "react-router";
         {name: 'Homepage', path: '/'},
         {name: 'Minitask-1&2', path:'/App'},
         {name: 'Minitask-3', path:'/GeneratePoke'},
-        {name: 'RickMorty', path: '/characters'}
+        {name: 'RickMorty', path: '/characters'},
+        {name: 'FetchTest', path: '/fetchtest'}
     ];
 
     const Header = () => {
