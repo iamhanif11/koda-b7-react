@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { Link, NavLink, useLocation } from "react-router"; 
 import LoginContext from "../../context/logincontext";
 
- 
 
 const navigation = [
     { name: 'Homepage', path: '/' },
