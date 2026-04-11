@@ -2,13 +2,15 @@ import { Routes, Route } from "react-router";
 
 import App from "./App";
 import GeneratePoke from "./components/GeneratePoke";
-// import Homepage from "./pages/Homepage";
 import Layout from "./components/layout/Layout";
 import ReviewPage from "./pages/ReviewPage";
 import ListChara from "./components/ListChara";
 import DetailChara from "./components/DetailChara";
-import FetchTech from "./components/Fetchtest";
 import FetchTest from "./components/Fetchtest";
+import { Login } from "./pages/FormContext";
+import { EditProfile } from "./pages/Profile";
+
+
 
 function AppRouter() {
   return (
@@ -40,6 +42,8 @@ function AppRouter() {
       <Route path="/characters" element={<ListChara />}></Route>
       <Route path="/characters/:id/:slug" element={<DetailChara />}></Route>
       <Route path="/fetchtest" element={<FetchTest/>}></Route>
+      <Route path="/edit-profile" element={<EditProfile/>}></Route>
+      <Route path="/login" element={<Login/>}></Route>
     </Routes>
   );
 }

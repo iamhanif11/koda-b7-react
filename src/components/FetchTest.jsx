@@ -12,7 +12,7 @@ function FetchTest(){
             <h2>Daftar Karakter Rick and Morty</h2>
             
         
-            {data?.results?.map((char) => (
+            {data.results.map((char) => (
                 <div key={char.id} >
                     <img src={char.image} alt={char.name} width="50" />
                     <p>{char.name} - {char.status}</p> 
