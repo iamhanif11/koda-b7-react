@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { NavLink } from "react-router";
-import LoginContext from "../../context/loginContext";
+import LoginContext from "../../context/logincontext";
+
 
 function Navbar() {
     const { user, logout, editProfile } = useContext(LoginContext)

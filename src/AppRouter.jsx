@@ -9,6 +9,7 @@ import DetailChara from "./components/DetailChara";
 import FetchTest from "./components/Fetchtest";
 import { Login } from "./pages/FormContext";
 import { EditProfile } from "./pages/Profile";
+import SurveyPage from "./pages/SurveyPage";
 
 
 
@@ -44,6 +45,7 @@ function AppRouter() {
       <Route path="/fetchtest" element={<FetchTest/>}></Route>
       <Route path="/edit-profile" element={<EditProfile/>}></Route>
       <Route path="/login" element={<Login/>}></Route>
+      <Route path="/survey" element={<SurveyPage/>}></Route>
     </Routes>
   );
 }
