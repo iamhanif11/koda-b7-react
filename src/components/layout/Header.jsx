@@ -8,7 +8,8 @@ const navigation = [
     { name: 'Minitask-1&2', path: '/App' },
     { name: 'Minitask-3', path: '/GeneratePoke' },
     { name: 'RickMorty', path: '/characters' },
-    { name: 'FetchTest', path: '/fetchtest' }
+    { name: 'FetchTest', path: '/fetchtest' },
+    { name: 'Survey', path: '/survey'}
 ];
 
 const Header = () => {
